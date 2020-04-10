@@ -7,7 +7,7 @@ import { Login } from "interfaces/.components/Login";
 
 export const App = () => {
   return (
-    <div className={styles.App}>
+    <div className={styles.app}>
       <Header />
       <Login />
     </div>
