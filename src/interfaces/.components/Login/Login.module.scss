@@ -7,6 +7,7 @@
   overflow: hidden;
   position: relative;
   width: 400px;
+  z-index: 100;
 }
 
 .logForm::after {
@@ -14,7 +15,7 @@
   background-repeat: no-repeat;
   background-size: 500px;
   bottom: 0;
-  content: "";
+  content: '';
   left: 0;
   opacity: 0.8;
   position: absolute;
@@ -124,7 +125,7 @@
 .logForm .login::before {
   background-color: #fff;
   border-radius: 50%;
-  content: "";
+  content: '';
   height: 250px;
   left: 50%;
   position: absolute;

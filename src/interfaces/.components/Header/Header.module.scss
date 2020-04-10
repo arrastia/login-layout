@@ -7,8 +7,21 @@
   width: 100%;
 
   .logo {
+    border-radius: 50%;
+    border: 0.25vmin solid;
     height: 10vmin;
     pointer-events: none;
+    width: 10vmin;
+    z-index: 100;
+  }
+
+  .colorPicker {
+    position: relative;
+  }
+
+  .switch {
+    position: relative;
+    left: 100px;
   }
 }
 
